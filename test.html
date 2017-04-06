@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="/action_page.php">
+
+        <legend>Personal information:</legend>
+        First name:<br><input type="text" name="firstname" value=""><br>
+        Last name:<br><input type="text" name="lastname" value=""><br>
+        Email:<br><input type="text" name="Email" value=""><br>
+        Telephone:<br><input type="text" name="telephone" value=""><br><br>
+        Choose Day:<br>
+    <input type="radio" name="day" value="Monday" checked> Monday
+    <input type="radio" name="day" value="Tuesday"> Tuesday
+    <input type="radio" name="day" value="Wednesday"> Wednesday
+    <input type="radio" name="day" value="Thursday" > Thursday
+    <input type="radio" name="day" value="Friday"> Friday
+    <input type="radio" name="day" value="Saturday"> Saturday<br><br>
+</form>
+
+<form action="/action_page1.php">
+    Choose time:<br><br>
+    <input type="radio" name="day" value="Afternoon" checked> Afternoon
+    <input type="radio" name="day" value="Evening" > Evening
+</form>
+
+<ul><strong>Playing Guidelines</strong><br>
+    <li>Participants in Slammers Beach Volleyball play at their own risk.</li>
+    <li>Anyone playing is responsible for their own safety and should only play if they are capable.</li>
+    <li>Check with your doctor before you begin.</li>
+    <li>Game fees must be paid prior to the start of the game.</li>
+    <li>Games may be cancelled by players up to 4 hours before hand to get a refund.</li>
+    <li>Without 4 hours' notice, participants will forfeit the game and be charged 50% of the game fee.</li>
+</ul>
+
+
+<form  action="/action_page2.php">
+    <strong>I have read and agree on the Playing Guidelines (above):</strong><br><br>
+    <input type="radio" name="Yes" value="True" checked> Yes
+    <input type="radio" name="No" value="False" > No<br> <br>
+    <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
